@@ -25,7 +25,6 @@ const Form = props => {
                 )
               }
             )
-            
           }
       </select>
       <button className={classes['btn']} >CLICK</button>

@@ -12,7 +12,9 @@ const useFetchQuestion = () => {
     const answer = currentCountries[Math.round(Math.random()*3)]; 
 
     setCountriesData({
-      options: currentCountries.map(c =>c.capital),
+      options: currentCountries.map(c =>{
+        return c.capital !== '' ? c.capital : '***Not capital sorry***'; 
+      }),
       answer
     });
     
