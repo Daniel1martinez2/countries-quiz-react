@@ -1,0 +1,18 @@
+.country{
+  background-color: rgb(33, 33, 33);
+  width: 50vw;
+  overflow: hidden;
+  padding:2em; 
+  border-radius:8px; 
+  margin-bottom: 2em;
+}
+.country__title{
+  text-align:center; 
+  margin-bottom: 1em;
+  color: white; 
+}
+.country__img{
+  width:100%;
+  height:auto; 
+  border-radius:8px; 
+}

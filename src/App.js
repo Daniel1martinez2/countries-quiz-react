@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React, {useEffect} from 'react'; 
+import useFetchQuestion from './hooks/fetch-question';
+import Country from './components/Country';
+import Form from './components/Form';
+
 import './App.css';
 
 function App() {
+  const {countriesData, fetchCountries} = useFetchQuestion();
+  useEffect(()=> {
+    fetchCountries(); 
+  },[fetchCountries]); 
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Country country={countriesData} />
+      <Form onSubmit={fetchCountries} options={countriesData.options && countriesData.options}/>
     </div>
   );
 }
