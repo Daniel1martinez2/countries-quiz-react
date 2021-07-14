@@ -1,0 +1,46 @@
+.backdrop{
+  background-color: rgba(0, 0, 0, .8);
+  
+  position: absolute;
+  width:100vw; 
+  height:100vh; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+.modal{
+  background-color:rgb(52, 52, 52);
+  padding:2em;
+  border-radius: 8px;
+  display:flex;
+  flex-direction:column;
+}
+
+.modal__title{
+  margin-bottom: 1em;
+  text-align:center;
+}
+.modal__p{
+  color: rgb(128, 128, 128);
+  margin-bottom: 1em;
+}
+.modal__btn{
+  align-self: flex-end;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: rgb(108, 108, 108);
+  color: white;
+  cursor: pointer; 
+}
+.modal__btn:hover{
+  background-color:rgb(191, 191, 191)
+}
+
+.modal__country{
+  color: white;  
+}
+.modal__answer{
+  color: white;
+}

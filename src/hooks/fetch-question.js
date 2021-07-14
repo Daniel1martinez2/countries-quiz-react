@@ -7,7 +7,7 @@ const useFetchQuestion = () => {
     const data = await response.json();
     const currentCountries = Array.from({length:4}).map(w => {
       const cap = data[Math.round(Math.random()*data.length-1)]; 
-      return cap !== '' ? cap : data[Math.round(Math.random()*data.length-1)]; 
+      return cap.capital !== '' ? cap : data[Math.round(Math.random()*data.length-1)]; 
     });
     const answer = currentCountries[Math.round(Math.random()*3)]; 
 
