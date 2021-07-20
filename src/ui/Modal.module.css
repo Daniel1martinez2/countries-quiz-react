@@ -44,3 +44,9 @@
 .modal__answer{
   color: white;
 }
+.incorrect{
+  color: red;
+}
+.correct{
+  color: greenyellow; 
+}

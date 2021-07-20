@@ -8,7 +8,7 @@ const Modal = props => {
       {ReactDOM.createPortal(
         <div className={classes['backdrop']}>
           <main className={classes['modal']}>
-            <h1 className={classes['modal__title']}>{modalData.response}</h1>
+            <h1 className={`${classes['modal__title']} ${classes[modalData.response]}`}>{modalData.response}</h1>
             <h4 className={classes['modal__p']}>
               The capital of 
               <strong className={classes['modal__country']}> {modalData.country} </strong>
