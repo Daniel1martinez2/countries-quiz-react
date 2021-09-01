@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/countries-quiz-react/static/css/main.90638eeb.chunk.css",
+    "main.js": "/countries-quiz-react/static/js/main.a4821fcc.chunk.js",
+    "main.js.map": "/countries-quiz-react/static/js/main.a4821fcc.chunk.js.map",
+    "runtime-main.js": "/countries-quiz-react/static/js/runtime-main.56a70445.js",
+    "runtime-main.js.map": "/countries-quiz-react/static/js/runtime-main.56a70445.js.map",
+    "static/js/2.ae16aff5.chunk.js": "/countries-quiz-react/static/js/2.ae16aff5.chunk.js",
+    "static/js/2.ae16aff5.chunk.js.map": "/countries-quiz-react/static/js/2.ae16aff5.chunk.js.map",
+    "index.html": "/countries-quiz-react/index.html",
+    "static/css/main.90638eeb.chunk.css.map": "/countries-quiz-react/static/css/main.90638eeb.chunk.css.map",
+    "static/js/2.ae16aff5.chunk.js.LICENSE.txt": "/countries-quiz-react/static/js/2.ae16aff5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56a70445.js",
+    "static/js/2.ae16aff5.chunk.js",
+    "static/css/main.90638eeb.chunk.css",
+    "static/js/main.a4821fcc.chunk.js"
+  ]
+}
